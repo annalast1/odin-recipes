@@ -10,11 +10,22 @@ h1 {
 
 .intro {
     font-size: 35px;
-    text-decoration: none;
     line-height: 1.5;
-}
-
-ul, ol {
     list-style-type: none;
 }
 
+a, .intro {
+    text-decoration: none;
+}
+
+ul, ol {
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+ol>li {
+    padding: 5px;
+}
