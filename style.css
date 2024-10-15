@@ -1,31 +1,80 @@
 body {
     font-family: Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: green;
+    margin-left: 10px;
+
 }
 
-h1 {
+.header{
     font-size: 100px;
     font-family: Tahoma, sans-serif;
     text-align: center;
+    background-color: green;
+    color: blue;
+    margin:  auto;
+    padding: 30px;    
 }
 
-.intro {
-    font-size: 35px;
-    line-height: 1.5;
+.index {
+    list-style-type: none;
+    margin: 120px auto;
+    max-width: 600px;
+    font-size: 40px
+}
+
+ul>li, .intro, a {
+    
+    line-height: 2;
+    color: green; 
     list-style-type: none;
 }
 
-a, .intro {
+a {
     text-decoration: none;
 }
 
-ul, ol {
-    line-height: 1.5;
+a:hover {
+    color: blue;
 }
 
-h3 {
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 3px;
+}
+.description {
     font-size: 25px;
 }
 
-ol>li {
-    padding: 5px;
+img {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    
 }
+
+.ing, .ingredients {
+    display: inline-block;
+}
+
+.ing {
+    font-size: 25px;
+    vertical-align: top;
+    padding: 0;
+    margin-top: 0; 
+    margin-bottom: 15px;   
+}
+
+ul {
+    margin-top: 0;    
+   margin-left: 10px;;
+}
+
+li {
+    border-bottom: 1px solid lightblue;
+    font-size: 20px;
+}
+
