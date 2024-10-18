@@ -22,7 +22,8 @@ body {
     list-style-type: none;
     margin: 120px auto;
     max-width: 600px;
-    font-size: 40px
+    font-size: 40px;
+    border: none;
 }
 
 ul>li, .intro, a {
@@ -70,10 +71,10 @@ img {
 
 ul {
     margin-top: 0;    
-   margin-left: 10px;;
+    margin-left: 10px;;
 }
 
-li {
+.ingredients>.need {
     border-bottom: 1px solid lightblue;
     font-size: 20px;
 }
